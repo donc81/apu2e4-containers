@@ -28,7 +28,7 @@ networks:
   mgmt_vlan:
     driver: macvlan
     driver_opts:
-      parent: enp1s0.6
+      parent: enp1s0
     ipam:
       config:
         - subnet: 172.16.6.0/24
