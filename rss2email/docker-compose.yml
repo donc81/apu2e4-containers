@@ -2,6 +2,7 @@ version: "3.8"
 services:
   rss2email:
     command: /app/rss2email daemon -verbose ${TO_EMAIL}
+    container_name: rss2email_security-feed
     env_file:
       - .env
     restart: unless-stopped
