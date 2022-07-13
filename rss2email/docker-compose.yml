@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  rss2email:
+    command: /app/rss2email cron -verbose ${TO_EMAIL}
+    env_file:
+      - .env
+    restart: unless-stopped
+    image: tuxmealux/rss2email:latest
+    volumes:
+    - ./config:/root/.rss2email
