@@ -21,6 +21,7 @@ services:
       - 6789:6789 #optional
       - 5514:5514/udp #optional
     restart: unless-stopped
+    mac_address: de:ad:be:ef:06:03
     networks:
       mgmt_vlan:
         ipv4_address: 172.16.6.3
