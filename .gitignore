@@ -1,2 +1,3 @@
 unifi-controller/config
 rss2email/.env
+rss2email/config/state.db
