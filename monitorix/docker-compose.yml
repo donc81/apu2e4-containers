@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  monitorix:
+    build: ./monitorix
+    image: monitorix:local
+    container_name: monitorix
+    privileged: true
+    volumes:
+      - ./monitorix.conf:/etc/monitorix/monitorix.conf
+      - ./ssmtp.conf:/etc/ssmtp/ssmtp.conf
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    pid: host
+    ports:
+      - 8080:8080
+    restart: unless-stopped
