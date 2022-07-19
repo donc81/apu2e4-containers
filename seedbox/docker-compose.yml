@@ -1,0 +1,60 @@
+version: "3.8"
+services:
+  rtorrent:
+    build: ./rtorrent
+    image: rtorrent:local
+    container_name: seedbox-rtorrent
+    hostname: rtorrent
+    restart: unless-stopped
+    environment:
+      HOME: /rtorrent/config
+    volumes:
+      - ./rtorrent/config:/rtorrent/config
+      - rtorrent_session:/rtorrent/session
+      - /mnt/rtorrent_nas:/rtorrent/nas
+    ports:
+      - 50000:50000
+      - 6881:6881
+      - 16891:16891
+    dns:
+      - 172.16.60.1
+    mac_address: de:ad:be:ef:60:02
+    networks:
+      p2p_vlan:
+        aliases:
+          - rtorrent
+        ipv4_address: 172.16.60.2
+
+  flood:
+    hostname: flood
+    image: jesec/flood
+    user: 1000:1000
+    container_name: seedbox-flood
+    command: --allowedpath /rtorrent/nas/download
+    volumes:
+      - /mnt/rtorrent_nas:/rtorrent/nas
+      - ./flood_data:/home/node/.local/share/flood
+    environment:
+      - FLOOD_OPTION_port=80
+    mac_address: de:ad:be:ef:60:03
+    networks:
+      p2p_vlan:
+        aliases:
+          - flood
+        ipv4_address: 172.16.60.3
+    restart: always
+    depends_on:
+      - rtorrent
+
+volumes:
+   rtorrent_session:
+
+networks:
+  p2p_vlan:
+    driver: macvlan
+    driver_opts:
+      parent: enp1s0.60
+    ipam:
+      config:
+        - subnet: 172.16.60.0/24
+          gateway: 172.16.60.1
