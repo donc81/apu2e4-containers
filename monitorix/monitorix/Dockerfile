@@ -6,7 +6,8 @@ RUN apt update && \
                    ssmtp \
                    iproute2 \
                    procps \
-                   iptables
+                   iptables \
+                   lm-sensors
 
 COPY notifications /notifications
 RUN chmod +x /notifications/*.sh
