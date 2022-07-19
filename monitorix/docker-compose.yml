@@ -3,6 +3,7 @@ services:
   monitorix:
     build: ./monitorix
     image: monitorix:local
+    hostname: monitorix-apu2e4
     container_name: monitorix
     privileged: true
     volumes:
