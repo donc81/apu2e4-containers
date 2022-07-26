@@ -1,0 +1,469 @@
+# Automatically add the following tracker to each new added torrent
+
+# udp://9.rarbg.com:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers001,"d.tracker.insert=\"32\",\"udp://9.rarbg.com:2710/announce\""
+
+# http://thetracker.org:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers002,"d.tracker.insert=\"32\",\"http://thetracker.org:80/announce\""
+
+# http://torrentsmd.com:8080/announce
+method.set_key=event.download.inserted_new,add_all_trackers003,"d.tracker.insert=\"32\",\"http://torrentsmd.com:8080/announce\""
+
+# http://tracker.bittor.pw:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers004,"d.tracker.insert=\"32\",\"http://tracker.bittor.pw:1337/announce\""
+
+# udp://tracker.openbittorrent.com:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers005,"d.tracker.insert=\"32\",\"udp://tracker.openbittorrent.com:80/announce\""
+
+# udp://opentor.org:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers006,"d.tracker.insert=\"32\",\"udp://opentor.org:2710/announce\""
+
+# udp://tracker.ccc.de:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers007,"d.tracker.insert=\"32\",\"udp://tracker.ccc.de:80/announce\""
+
+# udp://tracker.blackunicorn.xyz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers008,"d.tracker.insert=\"32\",\"udp://tracker.blackunicorn.xyz:6969/announce\""
+
+# udp://tracker.coppersurfer.tk:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers009,"d.tracker.insert=\"32\",\"udp://tracker.coppersurfer.tk:6969/announce\""
+
+# udp://tracker.leechers-paradise.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers010,"d.tracker.insert=\"32\",\"udp://tracker.leechers-paradise.org:6969/announce\""
+
+# udp://opentracker.i2p.rocks:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers015,"d.tracker.insert=\"32\",\"udp://opentracker.i2p.rocks:6969/announce\""
+
+# http://opentracker.i2p.rocks:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers016,"d.tracker.insert=\"32\",\"http://opentracker.i2p.rocks:6969/announce\""
+
+# udp://tracker.opentrackr.org:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers017,"d.tracker.insert=\"32\",\"udp://tracker.opentrackr.org:1337/announce\""
+
+# http://tracker.opentrackr.org:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers018,"d.tracker.insert=\"32\",\"http://tracker.opentrackr.org:1337/announce\""
+
+# udp://tracker.internetwarriors.net:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers019,"d.tracker.insert=\"32\",\"udp://tracker.internetwarriors.net:1337/announce\""
+
+# http://tracker.internetwarriors.net:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers020,"d.tracker.insert=\"32\",\"http://tracker.internetwarriors.net:1337/announce\""
+
+# udp://exodus.desync.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers021,"d.tracker.insert=\"32\",\"udp://exodus.desync.com:6969/announce\""
+
+# udp://tracker.cyberia.is:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers022,"d.tracker.insert=\"32\",\"udp://tracker.cyberia.is:6969/announce\""
+
+# udp://3rt.tace.ru:60889/announce
+method.set_key=event.download.inserted_new,add_all_trackers023,"d.tracker.insert=\"32\",\"udp://3rt.tace.ru:60889/announce\""
+
+# http://5rt.tace.ru:60889/announce
+method.set_key=event.download.inserted_new,add_all_trackers024,"d.tracker.insert=\"32\",\"http://5rt.tace.ru:60889/announce\""
+
+# udp://explodie.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers025,"d.tracker.insert=\"32\",\"udp://explodie.org:6969/announce\""
+
+# http://explodie.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers026,"d.tracker.insert=\"32\",\"http://explodie.org:6969/announce\""
+
+# udp://47.ip-51-68-199.eu:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers027,"d.tracker.insert=\"32\",\"udp://47.ip-51-68-199.eu:6969/announce\""
+
+# udp://tracker.tiny-vps.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers028,"d.tracker.insert=\"32\",\"udp://tracker.tiny-vps.com:6969/announce\""
+
+# udp://tracker.ds.is:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers029,"d.tracker.insert=\"32\",\"udp://tracker.ds.is:6969/announce\""
+
+# udp://retracker.lanta-net.ru:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers030,"d.tracker.insert=\"32\",\"udp://retracker.lanta-net.ru:2710/announce\""
+
+# http://open.acgnxtracker.com:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers031,"d.tracker.insert=\"32\",\"http://open.acgnxtracker.com:80/announce\""
+
+# udp://www.torrent.eu.org:451/announce
+method.set_key=event.download.inserted_new,add_all_trackers032,"d.tracker.insert=\"32\",\"udp://www.torrent.eu.org:451/announce\""
+
+# udp://tracker.torrent.eu.org:451/announce
+method.set_key=event.download.inserted_new,add_all_trackers033,"d.tracker.insert=\"32\",\"udp://tracker.torrent.eu.org:451/announce\""
+
+# udp://open.stealth.si:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers034,"d.tracker.insert=\"32\",\"udp://open.stealth.si:80/announce\""
+
+# udp://tracker.moeking.me:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers035,"d.tracker.insert=\"32\",\"udp://tracker.moeking.me:6969/announce\""
+
+# udp://ipv4.tracker.harry.lu:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers036,"d.tracker.insert=\"32\",\"udp://ipv4.tracker.harry.lu:80/announce\""
+
+# http://tracker.dler.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers037,"d.tracker.insert=\"32\",\"http://tracker.dler.org:6969/announce\""
+
+# http://rt.tace.ru:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers038,"d.tracker.insert=\"32\",\"http://rt.tace.ru:80/announce\""
+
+# udp://valakas.rollo.dnsabr.com:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers039,"d.tracker.insert=\"32\",\"udp://valakas.rollo.dnsabr.com:2710/announce\""
+
+# udp://opentor.org:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers040,"d.tracker.insert=\"32\",\"udp://opentor.org:2710/announce\""
+
+# udp://cdn-2.gamecoast.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers041,"d.tracker.insert=\"32\",\"udp://cdn-2.gamecoast.org:6969/announce\""
+
+# udp://cdn-1.gamecoast.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers042,"d.tracker.insert=\"32\",\"udp://cdn-1.gamecoast.org:6969/announce\""
+
+# https://trakx.herokuapp.com:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers043,"d.tracker.insert=\"32\",\"https://trakx.herokuapp.com:443/announce\""
+
+# http://h4.trakx.nibba.trade:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers044,"d.tracker.insert=\"32\",\"http://h4.trakx.nibba.trade:80/announce\""
+
+# udp://t3.leech.ie:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers045,"d.tracker.insert=\"32\",\"udp://t3.leech.ie:1337/announce\""
+
+# udp://t2.leech.ie:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers046,"d.tracker.insert=\"32\",\"udp://t2.leech.ie:1337/announce\""
+
+# udp://t1.leech.ie:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers047,"d.tracker.insert=\"32\",\"udp://t1.leech.ie:1337/announce\""
+
+# udp://vibe.community:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers048,"d.tracker.insert=\"32\",\"udp://vibe.community:6969/announce\""
+
+# udp://tracker0.ufibox.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers049,"d.tracker.insert=\"32\",\"udp://tracker0.ufibox.com:6969/announce\""
+
+# udp://tracker.zerobytes.xyz:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers050,"d.tracker.insert=\"32\",\"udp://tracker.zerobytes.xyz:1337/announce\""
+
+# udp://tracker.v6speed.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers051,"d.tracker.insert=\"32\",\"udp://tracker.v6speed.org:6969/announce\""
+
+# udp://tracker.uw0.xyz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers052,"d.tracker.insert=\"32\",\"udp://tracker.uw0.xyz:6969/announce\""
+
+# udp://tracker.shkinev.me:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers053,"d.tracker.insert=\"32\",\"udp://tracker.shkinev.me:6969/announce\""
+
+# udp://tracker.army:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers054,"d.tracker.insert=\"32\",\"udp://tracker.army:6969/announce\""
+
+# udp://storage.groupees.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers055,"d.tracker.insert=\"32\",\"udp://storage.groupees.com:6969/announce\""
+
+# udp://nagios.tks.sumy.ua:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers056,"d.tracker.insert=\"32\",\"udp://nagios.tks.sumy.ua:80/announce\""
+
+# udp://mts.tvbit.co:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers057,"d.tracker.insert=\"32\",\"udp://mts.tvbit.co:6969/announce\""
+
+# udp://movies.zsw.ca:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers058,"d.tracker.insert=\"32\",\"udp://movies.zsw.ca:6969/announce\""
+
+# udp://mail.realliferpg.de:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers059,"d.tracker.insert=\"32\",\"udp://mail.realliferpg.de:6969/announce\""
+
+# udp://ln.mtahost.co:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers060,"d.tracker.insert=\"32\",\"udp://ln.mtahost.co:6969/announce\""
+
+# udp://line-net.ru:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers061,"d.tracker.insert=\"32\",\"udp://line-net.ru:6969/announce\""
+
+# udp://fe.dealclub.de:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers062,"d.tracker.insert=\"32\",\"udp://fe.dealclub.de:6969/announce\""
+
+# udp://engplus.ru:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers063,"d.tracker.insert=\"32\",\"udp://engplus.ru:6969/announce\""
+
+# udp://edu.uifr.ru:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers064,"d.tracker.insert=\"32\",\"udp://edu.uifr.ru:6969/announce\""
+
+# udp://discord.heihachi.pw:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers065,"d.tracker.insert=\"32\",\"udp://discord.heihachi.pw:6969/announce\""
+
+# udp://daveking.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers066,"d.tracker.insert=\"32\",\"udp://daveking.com:6969/announce\""
+
+# udp://cutiegirl.ru:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers067,"d.tracker.insert=\"32\",\"udp://cutiegirl.ru:6969/announce\""
+
+# udp://code2chicken.nl:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers068,"d.tracker.insert=\"32\",\"udp://code2chicken.nl:6969/announce\""
+
+# udp://bubu.mapfactor.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers069,"d.tracker.insert=\"32\",\"udp://bubu.mapfactor.com:6969/announce\""
+
+# udp://bt2.archive.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers070,"d.tracker.insert=\"32\",\"udp://bt2.archive.org:6969/announce\""
+
+# udp://bt1.archive.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers071,"d.tracker.insert=\"32\",\"udp://bt1.archive.org:6969/announce\""
+
+# udp://blokas.io:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers072,"d.tracker.insert=\"32\",\"udp://blokas.io:6969/announce\""
+
+# udp://aruacfilmes.com.br:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers073,"d.tracker.insert=\"32\",\"udp://aruacfilmes.com.br:6969/announce\""
+
+# http://vps02.net.orel.ru:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers074,"d.tracker.insert=\"32\",\"http://vps02.net.orel.ru:80/announce\""
+
+# http://tracker.zerobytes.xyz:1337/announce
+method.set_key=event.download.inserted_new,add_all_trackers075,"d.tracker.insert=\"32\",\"http://tracker.zerobytes.xyz:1337/announce\""
+
+# http://t.overflow.biz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers076,"d.tracker.insert=\"32\",\"http://t.overflow.biz:6969/announce\""
+
+# udp://us-tracker.publictracker.xyz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers077,"d.tracker.insert=\"32\",\"udp://us-tracker.publictracker.xyz:6969/announce\""
+
+# udp://u.wwwww.wtf:1/announce
+method.set_key=event.download.inserted_new,add_all_trackers078,"d.tracker.insert=\"32\",\"udp://u.wwwww.wtf:1/announce\""
+
+# udp://tracker4.itzmx.com:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers079,"d.tracker.insert=\"32\",\"udp://tracker4.itzmx.com:2710/announce\""
+
+# udp://tracker2.dler.org:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers080,"d.tracker.insert=\"32\",\"udp://tracker2.dler.org:80/announce\""
+
+# udp://tracker1.bt.moack.co.kr:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers081,"d.tracker.insert=\"32\",\"udp://tracker1.bt.moack.co.kr:80/announce\""
+
+# udp://tracker.lelux.fi:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers082,"d.tracker.insert=\"32\",\"udp://tracker.lelux.fi:6969/announce\""
+
+# udp://tracker.fortu.io:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers083,"d.tracker.insert=\"32\",\"udp://tracker.fortu.io:6969/announce\""
+
+# udp://tracker.altrosky.nl:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers084,"d.tracker.insert=\"32\",\"udp://tracker.altrosky.nl:6969/announce\""
+
+# udp://tracker.0x.tf:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers085,"d.tracker.insert=\"32\",\"udp://tracker.0x.tf:6969/announce\""
+
+# udp://torrentclub.online:54123/announce
+method.set_key=event.download.inserted_new,add_all_trackers086,"d.tracker.insert=\"32\",\"udp://torrentclub.online:54123/announce\""
+
+# udp://inferno.demonoid.is:3391/announce
+method.set_key=event.download.inserted_new,add_all_trackers087,"d.tracker.insert=\"32\",\"udp://inferno.demonoid.is:3391/announce\""
+
+# udp://bt2.3kb.xyz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers088,"d.tracker.insert=\"32\",\"udp://bt2.3kb.xyz:6969/announce\""
+
+# udp://bt.okmp3.ru:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers089,"d.tracker.insert=\"32\",\"udp://bt.okmp3.ru:2710/announce\""
+
+# http://tracker1.bt.moack.co.kr:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers090,"d.tracker.insert=\"32\",\"http://tracker1.bt.moack.co.kr:80/announce\""
+
+# http://tracker.gbitt.info:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers091,"d.tracker.insert=\"32\",\"http://tracker.gbitt.info:80/announce\""
+
+# http://tracker-cdn.moeking.me:2095/announce
+method.set_key=event.download.inserted_new,add_all_trackers092,"d.tracker.insert=\"32\",\"http://tracker-cdn.moeking.me:2095/announce\""
+
+# http://torrentclub.online:54123/announce
+method.set_key=event.download.inserted_new,add_all_trackers093,"d.tracker.insert=\"32\",\"http://torrentclub.online:54123/announce\""
+
+# http://bt.okmp3.ru:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers094,"d.tracker.insert=\"32\",\"http://bt.okmp3.ru:2710/announce\""
+
+# udp://zephir.monocul.us:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers095,"d.tracker.insert=\"32\",\"udp://zephir.monocul.us:6969/announce\""
+
+# udp://www.loushao.net:8080/announce
+method.set_key=event.download.inserted_new,add_all_trackers096,"d.tracker.insert=\"32\",\"udp://www.loushao.net:8080/announce\""
+
+# udp://udp-tracker.shittyurl.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers097,"d.tracker.insert=\"32\",\"udp://udp-tracker.shittyurl.org:6969/announce\""
+
+# udp://tracker.zemoj.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers098,"d.tracker.insert=\"32\",\"udp://tracker.zemoj.com:6969/announce\""
+
+# udp://tracker.skyts.net:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers099,"d.tracker.insert=\"32\",\"udp://tracker.skyts.net:6969/announce\""
+
+# udp://tracker.sigterm.xyz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers100,"d.tracker.insert=\"32\",\"udp://tracker.sigterm.xyz:6969/announce\""
+
+# udp://tracker.loadbt.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers101,"d.tracker.insert=\"32\",\"udp://tracker.loadbt.com:6969/announce\""
+
+# udp://tr2.ysagin.top:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers102,"d.tracker.insert=\"32\",\"udp://tr2.ysagin.top:2710/announce\""
+
+# udp://tr.cili001.com:8070/announce
+method.set_key=event.download.inserted_new,add_all_trackers103,"d.tracker.insert=\"32\",\"udp://tr.cili001.com:8070/announce\""
+
+# udp://retracker.sevstar.net:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers104,"d.tracker.insert=\"32\",\"udp://retracker.sevstar.net:2710/announce\""
+
+# udp://retracker.netbynet.ru:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers105,"d.tracker.insert=\"32\",\"udp://retracker.netbynet.ru:2710/announce\""
+
+# udp://public-tracker.zooki.xyz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers106,"d.tracker.insert=\"32\",\"udp://public-tracker.zooki.xyz:6969/announce\""
+
+# udp://johnrosen1.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers107,"d.tracker.insert=\"32\",\"udp://johnrosen1.com:6969/announce\""
+
+# udp://free-tracker.zooki.xyz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers108,"d.tracker.insert=\"32\",\"udp://free-tracker.zooki.xyz:6969/announce\""
+
+# udp://drumkitx.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers109,"d.tracker.insert=\"32\",\"udp://drumkitx.com:6969/announce\""
+
+# udp://camera.lei001.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers110,"d.tracker.insert=\"32\",\"udp://camera.lei001.com:6969/announce\""
+
+# udp://bioquantum.co.za:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers111,"d.tracker.insert=\"32\",\"udp://bioquantum.co.za:6969/announce\""
+
+# udp://admin.videoenpoche.info:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers112,"d.tracker.insert=\"32\",\"udp://admin.videoenpoche.info:6969/announce\""
+
+# udp://6ahddutb1ucc3cp.ru:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers113,"d.tracker.insert=\"32\",\"udp://6ahddutb1ucc3cp.ru:6969/announce\""
+
+# https://w.wwwww.wtf:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers114,"d.tracker.insert=\"32\",\"https://w.wwwww.wtf:443/announce\""
+
+# https://tracker.tamersunion.org:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers115,"d.tracker.insert=\"32\",\"https://tracker.tamersunion.org:443/announce\""
+
+# https://tracker.sloppyta.co:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers116,"d.tracker.insert=\"32\",\"https://tracker.sloppyta.co:443/announce\""
+
+# https://tracker.renfei.net:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers117,"d.tracker.insert=\"32\",\"https://tracker.renfei.net:443/announce\""
+
+# http://tracker.vraphim.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers118,"d.tracker.insert=\"32\",\"http://tracker.vraphim.com:6969/announce\""
+
+# http://tracker.sloppyta.co:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers119,"d.tracker.insert=\"32\",\"http://tracker.sloppyta.co:80/announce\""
+
+# http://tracker.skyts.net:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers120,"d.tracker.insert=\"32\",\"http://tracker.skyts.net:6969/announce\""
+
+# http://tracker.noobsubs.net:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers121,"d.tracker.insert=\"32\",\"http://tracker.noobsubs.net:80/announce\""
+
+# http://tracker.loadbt.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers122,"d.tracker.insert=\"32\",\"http://tracker.loadbt.com:6969/announce\""
+
+# https://tracker.nitrix.me:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers123,"d.tracker.insert=\"32\",\"https://tracker.nitrix.me:443/announce\""
+
+# https://tracker.nanoha.org:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers124,"d.tracker.insert=\"32\",\"https://tracker.nanoha.org:443/announce\""
+
+# https://tracker.lelux.fi:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers125,"d.tracker.insert=\"32\",\"https://tracker.lelux.fi:443/announce\""
+
+# https://tracker.imgoingto.icu:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers126,"d.tracker.insert=\"32\",\"https://tracker.imgoingto.icu:443/announce\""
+
+# https://tracker.hama3.net:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers127,"d.tracker.insert=\"32\",\"https://tracker.hama3.net:443/announce\""
+
+# https://tracker.foreverpirates.co:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers128,"d.tracker.insert=\"32\",\"https://tracker.foreverpirates.co:443/announce\""
+
+# https://tracker.coalition.space:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers129,"d.tracker.insert=\"32\",\"https://tracker.coalition.space:443/announce\""
+
+# https://1337.abcvg.info:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers130,"d.tracker.insert=\"32\",\"https://1337.abcvg.info:443/announce\""
+
+# http://www.loushao.net:8080/announce
+method.set_key=event.download.inserted_new,add_all_trackers131,"d.tracker.insert=\"32\",\"http://www.loushao.net:8080/announce\""
+
+# http://vpn.flying-datacenter.de:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers132,"d.tracker.insert=\"32\",\"http://vpn.flying-datacenter.de:6969/announce\""
+
+# http://tracker2.dler.org:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers133,"d.tracker.insert=\"32\",\"http://tracker2.dler.org:80/announce\""
+
+# http://tracker.lelux.fi:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers134,"d.tracker.insert=\"32\",\"http://tracker.lelux.fi:80/announce\""
+
+# http://torrenttracker.nwc.acsalaska.net:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers135,"d.tracker.insert=\"32\",\"http://torrenttracker.nwc.acsalaska.net:6969/announce\""
+
+# http://t.nyaatracker.com:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers136,"d.tracker.insert=\"32\",\"http://t.nyaatracker.com:80/announce\""
+
+# http://t.acg.rip:6699/announce
+method.set_key=event.download.inserted_new,add_all_trackers137,"d.tracker.insert=\"32\",\"http://t.acg.rip:6699/announce\""
+
+# http://retracker.sevstar.net:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers138,"d.tracker.insert=\"32\",\"http://retracker.sevstar.net:2710/announce\""
+
+# http://pow7.com:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers139,"d.tracker.insert=\"32\",\"http://pow7.com:80/announce\""
+
+# http://open.acgtracker.com:1096/announce
+method.set_key=event.download.inserted_new,add_all_trackers140,"d.tracker.insert=\"32\",\"http://open.acgtracker.com:1096/announce\""
+
+# http://ns3107607.ip-54-36-126.eu:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers141,"d.tracker.insert=\"32\",\"http://ns3107607.ip-54-36-126.eu:6969/announce\""
+
+# http://mail2.zelenaya.net:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers142,"d.tracker.insert=\"32\",\"http://mail2.zelenaya.net:80/announce\""
+
+# http://bt.100.pet:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers143,"d.tracker.insert=\"32\",\"http://bt.100.pet:2710/announce\""
+
+# http://bobbialbano.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers144,"d.tracker.insert=\"32\",\"http://bobbialbano.com:6969/announce\""
+
+# udp://tsundere.pw:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers145,"d.tracker.insert=\"32\",\"udp://tsundere.pw:6969/announce\""
+
+# udp://tracker.kali.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers146,"d.tracker.insert=\"32\",\"udp://tracker.kali.org:6969/announce\""
+
+# udp://tracker.dler.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers147,"d.tracker.insert=\"32\",\"udp://tracker.dler.org:6969/announce\""
+
+# udp://tracker-udp.gbitt.info:80/announce
+method.set_key=event.download.inserted_new,add_all_trackers148,"d.tracker.insert=\"32\",\"udp://tracker-udp.gbitt.info:80/announce\""
+
+# udp://tr.bangumi.moe:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers149,"d.tracker.insert=\"32\",\"udp://tr.bangumi.moe:6969/announce\""
+
+# udp://public.publictracker.xyz:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers150,"d.tracker.insert=\"32\",\"udp://public.publictracker.xyz:6969/announce\""
+
+# udp://open.lolicon.eu:7777/announce
+method.set_key=event.download.inserted_new,add_all_trackers151,"d.tracker.insert=\"32\",\"udp://open.lolicon.eu:7777/announce\""
+
+# udp://ns389251.ovh.net:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers152,"d.tracker.insert=\"32\",\"udp://ns389251.ovh.net:6969/announce\""
+
+# udp://ns-1.x-fins.com:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers153,"d.tracker.insert=\"32\",\"udp://ns-1.x-fins.com:6969/announce\""
+
+# udp://concen.org:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers154,"d.tracker.insert=\"32\",\"udp://concen.org:6969/announce\""
+
+# udp://bt2.54new.com:8080/announce
+method.set_key=event.download.inserted_new,add_all_trackers155,"d.tracker.insert=\"32\",\"udp://bt2.54new.com:8080/announce\""
+
+# udp://bt.firebit.org:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers156,"d.tracker.insert=\"32\",\"udp://bt.firebit.org:2710/announce\""
+
+# udp://anidex.moe:6969/announce
+method.set_key=event.download.inserted_new,add_all_trackers157,"d.tracker.insert=\"32\",\"udp://anidex.moe:6969/announce\""
+
+# https://tr.ready4.icu:443/announce
+method.set_key=event.download.inserted_new,add_all_trackers158,"d.tracker.insert=\"32\",\"https://tr.ready4.icu:443/announce\""
+
+# http://tracker4.itzmx.com:2710/announce
+method.set_key=event.download.inserted_new,add_all_trackers159,"d.tracker.insert=\"32\",\"http://tracker4.itzmx.com:2710/announce\""
+
+# http://tracker.bt4g.com:2095/announce
+method.set_key=event.download.inserted_new,add_all_trackers160,"d.tracker.insert=\"32\",\"http://tracker.bt4g.com:2095/announce\""
