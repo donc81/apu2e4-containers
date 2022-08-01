@@ -1,0 +1,1 @@
+alias docker-stat="watch -n5 docker container ls --all --format \\\"table {{.ID}}\\\t{{.Names}}\\\t{{.RunningFor}}\\\t{{.Status}}\\\t{{.Image}}\\\""
