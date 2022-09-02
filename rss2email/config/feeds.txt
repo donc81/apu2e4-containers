@@ -316,3 +316,18 @@ https://github.com/StayPirate/secbox/tags.atom
 #### TODO  #### # Need urlwatch
 #### TODO  #### https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/refs
 #### TODO  #### - template: /templates/git.tmpl
+
+#   ███╗   ██╗███████╗██╗    ██╗███████╗
+#   ████╗  ██║██╔════╝██║    ██║██╔════╝
+#   ██╔██╗ ██║█████╗  ██║ █╗ ██║███████╗
+#   ██║╚██╗██║██╔══╝  ██║███╗██║╚════██║
+#   ██║ ╚████║███████╗╚███╔███╔╝███████║
+#   ╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝ ╚══════╝
+
+# Arch Linux News
+# DISABLED because it bans IPs (429 Too Many Requests) for 24 hours after only 3 HTTP requests. 
+# WTF Archlinux!? (╯°□°)╯︵ ┻━┻  
+# https://archlinux.org/feeds/news/
+# - template: /templates/default.tmpl
+# - sleep: 1
+# - user-agent: Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0
