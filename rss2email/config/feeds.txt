@@ -134,6 +134,10 @@ https://www.intezer.com/blog/feed/
 https://decoded.avast.io/feed/
 - template: /templates/default.tmpl
 
+# Security Nation podcast
+https://feeds.simplecast.com/gnxGfXH0
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
