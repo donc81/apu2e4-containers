@@ -317,6 +317,10 @@ https://github.com/StayPirate/secbox/tags.atom
 #### TODO  #### https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/refs
 #### TODO  #### - template: /templates/default.tmpl
 
+# KeePassXC
+https://github.com/keepassxreboot/keepassxc/releases.atom
+- template: /templates/default.tmpl
+
 #   ███╗   ██╗███████╗██╗    ██╗███████╗
 #   ████╗  ██║██╔════╝██║    ██║██╔════╝
 #   ██╔██╗ ██║█████╗  ██║ █╗ ██║███████╗
