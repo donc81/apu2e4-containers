@@ -89,7 +89,7 @@ https://blog.torproject.org/rss.xml
 - template: /templates/default.tmpl
 
 # Darknet Diaries podcast
-https://feeds.megaphone.fm/darknetdiaries
+https://darknetdiaries.com/feedfree.xml
 - template: /templates/default.tmpl
 
 # Guerre di rete (Italian)
