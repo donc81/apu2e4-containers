@@ -339,3 +339,14 @@ https://github.com/keepassxreboot/keepassxc/releases.atom
 # Web3 is going great
 https://web3isgoinggreat.com/feed.xml
 - template: /templates/default.tmpl
+
+#   ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
+#   ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
+#   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
+#   ██║███╗██║██║   ██║██╔══██╗██╔═██╗ 
+#   ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗
+#    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+
+# SMASH: MRs merged to master
+https://gitlab.suse.de/tools/smash/-/merge_requests.atom?feed_token=MyLyzjH5-223REc-gtM-&scope=all&state=merged&target_branch=master
+- template: /templates/default.tmpl
