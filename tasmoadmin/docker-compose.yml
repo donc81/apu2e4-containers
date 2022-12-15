@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  tasmoadmin:
+    image: ghcr.io/tasmoadmin/tasmoadmin:latest
+    hostname: tasmoadmin
+    container_name: tasmoadmin
+    privileged: true
+    volumes:
+      - ./data:/data
+    ports:
+      - 80:80
+    restart: unless-stopped
+    mac_address: de:ad:be:ef:06:04
+    networks:
+      mgmt_vlan:
+        ipv4_address: 172.16.6.4
+networks:
+  mgmt_vlan:
+    external: true

@@ -5,3 +5,4 @@ monitorix/ssmtp.conf
 seedbox/.env
 seedbox/flood_data
 seedbox/rtorrent/config/config.d/.import
+tasmoadmin/data
