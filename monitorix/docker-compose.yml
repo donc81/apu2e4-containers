@@ -6,6 +6,8 @@ services:
     hostname: monitorix-apu2e4
     container_name: monitorix
     privileged: true
+    environment:
+      - TZ=${TZ:-Europe/Rome}
     volumes:
       - ./monitorix.conf:/etc/monitorix/monitorix.conf
       - monitorix_data:/var/lib/monitorix
