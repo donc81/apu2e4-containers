@@ -27,7 +27,7 @@ services:
 
   flood:
     hostname: flood
-    image: jesec/flood
+    image: jesec/flood:master
     user: 1000:1000
     container_name: seedbox-flood
     command: --allowedpath /rtorrent/nas/download
