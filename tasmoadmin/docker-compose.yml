@@ -16,4 +16,11 @@ services:
         ipv4_address: 172.16.6.4
 networks:
   mgmt_vlan:
-    external: true
+    name: mgmt_vlan
+    driver: macvlan
+    driver_opts:
+      parent: enp1s0
+    ipam:
+      config:
+        - subnet: 172.16.6.0/24
+          gateway: 172.16.6.1
