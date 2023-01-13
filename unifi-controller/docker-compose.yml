@@ -1,4 +1,4 @@
-version: "2.1"
+version: "3"
 services:
   unifi-controller:
     image: lscr.io/linuxserver/unifi-controller:latest
@@ -21,18 +21,4 @@ services:
       - 6789:6789 #optional
       - 5514:5514/udp #optional
     restart: unless-stopped
-    mac_address: de:ad:be:ef:06:03
-    networks:
-      mgmt_vlan:
-        ipv4_address: 172.16.6.3
-networks:
-  mgmt_vlan:
-    name: mgmt_vlan
-    driver: macvlan
-    driver_opts:
-      parent: enp1s0
-    ipam:
-      config:
-        - subnet: 172.16.6.0/24
-          gateway: 172.16.6.1
-
+    network_mode: "host"
