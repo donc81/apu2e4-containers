@@ -330,6 +330,10 @@ https://github.com/keepassxreboot/keepassxc/releases.atom
 https://community.ui.com/rss/releases/UniFi-Network-Application/e6712595-81bb-4829-8e42-9e2630fabcfe
 - template: /templates/default.tmpl
 
+# Apple Products
+https://developer.apple.com/news/releases/rss/releases.rss
+- template: /templates/default.tmpl
+
 #   ███╗   ██╗███████╗██╗    ██╗███████╗
 #   ████╗  ██║██╔════╝██║    ██║██╔════╝
 #   ██╔██╗ ██║█████╗  ██║ █╗ ██║███████╗
