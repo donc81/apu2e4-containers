@@ -143,6 +143,10 @@ https://feeds.simplecast.com/gnxGfXH0
 https://googleprojectzero.blogspot.com/feeds/posts/default
 - template: /templates/default.tmpl
 
+# Thunderbird blog (not security related)
+https://blog.thunderbird.net/feed/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
