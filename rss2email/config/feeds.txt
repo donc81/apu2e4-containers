@@ -147,6 +147,10 @@ https://googleprojectzero.blogspot.com/feeds/posts/default
 https://blog.thunderbird.net/feed/
 - template: /templates/default.tmpl
 
+# David Buchanan blog - CTF writeups, programming, and miscellaneous stuff.
+https://www.da.vidbuchanan.co.uk/blog/rss.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
