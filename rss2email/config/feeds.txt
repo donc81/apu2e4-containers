@@ -383,5 +383,5 @@ https://feeds.simplecast.com/gnxGfXH0
 - template: /templates/default.tmpl
 
 # Thunderbird Podcast
-https://blog.thunderbird.net/feed/
+https://feeds.transistor.fm/thundercast
 - template: /templates/default.tmpl
