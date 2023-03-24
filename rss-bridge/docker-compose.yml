@@ -14,10 +14,4 @@ services:
         ipv4_address: 172.16.10.4
 networks:
   untrusted_vlan:
-    driver: macvlan
-    driver_opts:
-      parent: enp1s0.10
-    ipam:
-      config:
-        - subnet: 172.16.10.0/24
-          gateway: 172.16.10.1
+    name: untrusted_vlan
