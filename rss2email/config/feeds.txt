@@ -380,3 +380,7 @@ https://darknetdiaries.com/feedfree.xml
 # Security Nation podcast
 https://feeds.simplecast.com/gnxGfXH0
 - template: /templates/default.tmpl
+
+# Thunderbird Podcast
+https://blog.thunderbird.net/feed/
+- template: /templates/default.tmpl
