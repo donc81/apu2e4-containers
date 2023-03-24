@@ -151,6 +151,11 @@ https://blog.thunderbird.net/feed/
 https://www.da.vidbuchanan.co.uk/blog/rss.xml
 - template: /templates/default.tmpl
 
+# Late Night Linux, Linux Downtime, and Linux After Dark
+# https://latenightlinux.com
+https://latenightlinux.com/feed/all
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
