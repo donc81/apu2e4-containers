@@ -363,6 +363,7 @@ https://gitlab.suse.de/tools/smash/-/merge_requests.atom?feed_token=MyLyzjH5-223
 # https://latenightlinux.com
 https://latenightlinux.com/feed/all
 - template: /templates/default.tmpl
+- delay: 5
 
 # Dayzerosec Podcast - https://dayzerosec.com/podcast/
 # A weekly podcast for anyone interested in in exploit development and vulnerability research
