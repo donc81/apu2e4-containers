@@ -14,10 +14,6 @@
 #   ╚███╔███╔╝███████╗███████╗██║  ██╗███████╗██║       ╚██████╔╝██║     ██████╔╝██║  ██║   ██║   ███████╗
 #    ╚══╝╚══╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝        ╚═════╝ ╚═╝     ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝
 
-# A weekly podcast talking about the latest developments and updates from the Ubuntu Security team.
-https://ubuntusecuritypodcast.org/episode/index.xml
-- template: /templates/default.tmpl
-
 # SSD Secure Disclosure Youtube channels. https://www.youtube.com/channel/UC9ZnYbYqOe6Y3eRdw0TMz9Q
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9ZnYbYqOe6Y3eRdw0TMz9Q
 - template: /templates/default.tmpl
@@ -32,11 +28,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCnpDurxReTSpFs5-AhDo8Kg
 - include-title: Internet Weather Report
 - include-title: Cybersecurity Year in Review
 - include-title: Cybersecurity Predictions
-
-# Dayzerosec Podcast - https://dayzerosec.com/podcast/
-# A weekly podcast for anyone interested in in exploit development and vulnerability research
-https://dayzerosec.com/feed.xml
-- template: /templates/default.tmpl
 
 #### TODO  #### # LWN - Linux Weekly News: News from the source
 #### TODO  #### https://lwn.net/headlines/rss
@@ -88,10 +79,6 @@ https://msrc-blog.microsoft.com/feed/
 https://blog.torproject.org/rss.xml
 - template: /templates/default.tmpl
 
-# Darknet Diaries podcast
-https://darknetdiaries.com/feedfree.xml
-- template: /templates/default.tmpl
-
 # Guerre di rete (Italian)
 https://guerredirete.substack.com/feed
 - template: /templates/default.tmpl
@@ -134,10 +121,6 @@ https://www.intezer.com/blog/feed/
 https://decoded.avast.io/feed/
 - template: /templates/default.tmpl
 
-# Security Nation podcast
-https://feeds.simplecast.com/gnxGfXH0
-- template: /templates/default.tmpl
-
 # Google Project Zero
 # https://googleprojectzero.blogspot.com/
 https://googleprojectzero.blogspot.com/feeds/posts/default
@@ -149,11 +132,6 @@ https://blog.thunderbird.net/feed/
 
 # David Buchanan blog - CTF writeups, programming, and miscellaneous stuff.
 https://www.da.vidbuchanan.co.uk/blog/rss.xml
-- template: /templates/default.tmpl
-
-# Late Night Linux, Linux Downtime, and Linux After Dark
-# https://latenightlinux.com
-https://latenightlinux.com/feed/all
 - template: /templates/default.tmpl
 
 #### TODO  #### # https://ryanagood.com/
@@ -372,4 +350,33 @@ https://web3isgoinggreat.com/feed.xml
 
 # SMASH: MRs merged to master
 https://gitlab.suse.de/tools/smash/-/merge_requests.atom?feed_token=MyLyzjH5-223REc-gtM-&scope=all&state=merged&target_branch=master
+- template: /templates/default.tmpl
+
+#   ██████╗  ██████╗ ██████╗  ██████╗ █████╗ ███████╗████████╗
+#   ██╔══██╗██╔═══██╗██╔══██╗██╔════╝██╔══██╗██╔════╝╚══██╔══╝
+#   ██████╔╝██║   ██║██║  ██║██║     ███████║███████╗   ██║   
+#   ██╔═══╝ ██║   ██║██║  ██║██║     ██╔══██║╚════██║   ██║   
+#   ██║     ╚██████╔╝██████╔╝╚██████╗██║  ██║███████║   ██║   
+#   ╚═╝      ╚═════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝   ╚═╝   
+
+# Late Night Linux, Linux Downtime, and Linux After Dark
+# https://latenightlinux.com
+https://latenightlinux.com/feed/all
+- template: /templates/default.tmpl
+
+# Dayzerosec Podcast - https://dayzerosec.com/podcast/
+# A weekly podcast for anyone interested in in exploit development and vulnerability research
+https://dayzerosec.com/feed.xml
+- template: /templates/default.tmpl
+
+# A weekly podcast talking about the latest developments and updates from the Ubuntu Security team.
+https://ubuntusecuritypodcast.org/episode/index.xml
+- template: /templates/default.tmpl
+
+# Darknet Diaries podcast
+https://darknetdiaries.com/feedfree.xml
+- template: /templates/default.tmpl
+
+# Security Nation podcast
+https://feeds.simplecast.com/gnxGfXH0
 - template: /templates/default.tmpl
