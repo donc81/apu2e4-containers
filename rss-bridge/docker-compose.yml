@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  rssbrige:
+    container_name: rss-bride
+    restart: unless-stopped
+    image: rssbridge/rss-bridge
+    volumes:
+    - ./whitelist.txt:/app/whitelist.txt
+    dns:
+      - 172.16.10.1
+    mac_address: de:ad:be:ef:10:04
+    networks:
+      untrusted_vlan:
+        ipv4_address: 172.16.10.4
+networks:
+  untrusted_vlan:
+    driver: macvlan
+    driver_opts:
+      parent: enp1s0.10
+    ipam:
+      config:
+        - subnet: 172.16.10.0/24
+          gateway: 172.16.10.1
