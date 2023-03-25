@@ -12,6 +12,23 @@ services:
     networks:
       untrusted_vlan:
         ipv4_address: 172.16.10.4
+  rss-bridge-proxy:
+    build: ./rss-bridge-proxy
+    image: rss-bridge-proxy:local
+    env_file:
+      - ./rss-bridge-proxy/.env
+    container_name: rss-bridge-proxy
+    restart: unless-stopped
+    volumes:
+      - ./rss-bridge-proxy/conf.d:/usr/local/apache2/conf.d
+      - ./rss-bridge-proxy/.htaccess:/usr/local/apache2/htdocs/.htaccess
+    dns:
+      - 172.16.10.1
+    mac_address: de:ad:be:ef:10:05
+    networks:
+      untrusted_vlan:
+        ipv4_address: 172.16.10.5
+
 networks:
   untrusted_vlan:
     name: untrusted_vlan

@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule "^spotify/([a-z]+)/([a-zA-Z0-9]+)$" "http://rss-bridge.home/?action=display&bridge=SpotifyBridge&clientid=%{ENV:SPOTIFY_CLIENTID}&clientsecret=%{ENV:SPOTIFY_CLIENTSECRET}&country=US&limit=10&spotifyuri=spotify:$1:$2&albumtype=album%2Csingle&format=Atom" [P]
