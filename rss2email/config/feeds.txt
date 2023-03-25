@@ -375,7 +375,7 @@ https://ubuntusecuritypodcast.org/episode/index.xml
 - template: /templates/default.tmpl
 
 # Darknet Diaries podcast
-https://darknetdiaries.com/feedfree.xml
+http://rss-bridge-proxy.home/spotify/show/4XPl3uEEL9hvqMkoZrzbx5
 - template: /templates/default.tmpl
 
 # Security Nation podcast
