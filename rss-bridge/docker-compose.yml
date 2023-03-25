@@ -1,7 +1,7 @@
 version: "3.8"
 services:
-  rssbrige:
-    container_name: rss-bride
+  rss-bridge:
+    container_name: rss-bridge
     restart: unless-stopped
     image: rssbridge/rss-bridge
     volumes:
