@@ -267,6 +267,11 @@ https://images.videolan.org/videolan-news.rss
 http://rss-bridge.home/?action=display&bridge=MozillaSecurityBridge&format=Atom
 - template: /templates/default.tmpl
 
+# OpenWRT SA
+# https://openwrt.org/advisory/start
+http://rss-bridge.home/?action=display&bridge=OpenwrtSecurityBridge&format=Atom
+- template: /templates/default.tmpl
+
 #### TODO  #### # Android Monthly Security Bulletin
 #### TODO  #### # I've not been able to find feeds or a dedicated ML where to retrieve those.
 #### TODO  #### # Worst case I'll need to do sth via Urlwatch
