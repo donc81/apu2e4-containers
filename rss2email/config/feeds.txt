@@ -325,6 +325,11 @@ https://community.ui.com/rss/releases/UniFi-Network-Application/e6712595-81bb-48
 https://developer.apple.com/news/releases/rss/releases.rss
 - template: /templates/default.tmpl
 
+# Foot Releases
+# https://codeberg.org/dnkl/foot/releases
+http://rss-bridge.home/?action=display&bridge=CodebergBridge&context=Releases&username=dnkl&repo=foot&format=Atom
+- template: /templates/default.tmpl
+
 #   ███╗   ██╗███████╗██╗    ██╗███████╗
 #   ████╗  ██║██╔════╝██║    ██║██╔════╝
 #   ██╔██╗ ██║█████╗  ██║ █╗ ██║███████╗
