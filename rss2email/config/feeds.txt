@@ -398,10 +398,6 @@ https://ubuntusecuritypodcast.org/episode/index.xml
 http://rss-bridge-proxy.home/spotify/show/4XPl3uEEL9hvqMkoZrzbx5
 - template: /templates/default.tmpl
 
-# Security Nation podcast
-https://feeds.simplecast.com/gnxGfXH0
-- template: /templates/default.tmpl
-
 # Thunderbird Podcast
 https://feeds.transistor.fm/thundercast
 - template: /templates/default.tmpl
