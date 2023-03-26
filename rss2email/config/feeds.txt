@@ -346,6 +346,11 @@ https://archlinux.org/feeds/news/
 https://web3isgoinggreat.com/feed.xml
 - template: /templates/default.tmpl
 
+# Breaches from HIBP
+# https://haveibeenpwned.com/
+http://rss-bridge.home/?action=display&bridge=HaveIBeenPwnedBridge&order=dateAdded&item_limit=20&format=Atom
+- template: /templates/default.tmpl
+
 #   ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
 #   ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
 #   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
