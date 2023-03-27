@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  thelounge:
+    image: ghcr.io/thelounge/thelounge:latest
+    hostname: thelounge
+    container_name: thelounge
+    user: node
+    volumes:
+      - ./thelounge:/var/opt/thelounge
+    ports:
+      - 443:9000
+    restart: unless-stopped
+    dns:
+      - 172.16.10.1
+    mac_address: de:ad:be:ef:10:06
+    networks:
+      untrusted_vlan:
+        ipv4_address: 172.16.10.6
+networks:
+  untrusted_vlan:
+    name: untrusted_vlan

@@ -7,3 +7,4 @@ seedbox/flood_data
 seedbox/rtorrent/config/config.d/.import
 tasmoadmin/data
 rss-bridge/rss-bridge-proxy/.env
+irc/thelounge/*.key
