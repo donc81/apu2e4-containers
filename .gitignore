@@ -8,3 +8,4 @@ seedbox/rtorrent/config/config.d/.import
 tasmoadmin/data
 rss-bridge/rss-bridge-proxy/.env
 irc/thelounge/*.key
+irc/thelounge/packages/package_manager_cache

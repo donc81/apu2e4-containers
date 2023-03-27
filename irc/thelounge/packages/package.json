@@ -1,0 +1,7 @@
+{
+	"private": true,
+	"description": "Packages for The Lounge. Use `thelounge install <package>` command to add a package.",
+	"dependencies": {
+		"thelounge-theme-catppuccin-mocha": "1.1.3"
+	}
+}
