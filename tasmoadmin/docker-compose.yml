@@ -4,7 +4,6 @@ services:
     image: ghcr.io/tasmoadmin/tasmoadmin:latest
     hostname: tasmoadmin
     container_name: tasmoadmin
-    privileged: true
     volumes:
       - ./data:/data
     ports:
