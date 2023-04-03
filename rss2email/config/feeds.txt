@@ -88,7 +88,9 @@ https://github.com/justinsteven/advisories/commits/main.atom
 - template: /templates/default.tmpl
 
 # Cryptography Dispatches by Filippo Valsorda (AKA FiloSottile)
-https://buttondown.email/cryptography-dispatches/rss
+# Update 29/7/22: Filippo moved his blog to words.filippo.io
+#https://buttondown.email/cryptography-dispatches/rss
+https://words.filippo.io/dispatches/rss/
 - template: /templates/default.tmpl
 
 # Essays, opinions, and advice on the act of computer programming from Stack Overflow.
