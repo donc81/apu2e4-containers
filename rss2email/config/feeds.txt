@@ -136,6 +136,10 @@ https://blog.thunderbird.net/feed/
 https://www.da.vidbuchanan.co.uk/blog/rss.xml
 - template: /templates/default.tmpl
 
+# Mia mamma usa linux
+http://www.miamammausalinux.org/feed/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
