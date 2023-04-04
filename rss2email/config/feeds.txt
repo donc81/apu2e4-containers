@@ -152,6 +152,8 @@ https://daniel.haxx.se/blog/feed/
 #### TODO  #### # https://0xdarkvortex.dev/tags/
 #### TODO  #### # or ^ https://0xdarkvortex.dev/tags/blogs/
 #### TODO  #### # I can make it with urlwatch
+#### TODO  #### # Curl SA (needs urlwatch)
+#### TODO  #### https://curl.se/docs/security.html
 
 #### WONTDO #### # It would be nice to be able to retreive the <re:rank> value, which indicates
 #### WONTDO #### # how may thumbs up the question got, and filter only for those with a value
