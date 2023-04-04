@@ -407,3 +407,7 @@ http://rss-bridge-proxy.home/spotify/show/4XPl3uEEL9hvqMkoZrzbx5
 # Thunderbird Podcast
 https://feeds.transistor.fm/thundercast
 - template: /templates/default.tmpl
+
+# Fossified
+https://pod.fossified.com/podcast.rss
+- template: /templates/default.tmpl
