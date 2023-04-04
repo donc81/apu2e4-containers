@@ -1,0 +1,83 @@
+version: "3.9"
+services:
+  changedetection:
+    image: ghcr.io/dgtlmoon/changedetection.io
+    hostname: changedetection
+    container_name: changedetection
+    volumes:
+      - ./data:/datastore
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      - PORT=80
+      - PUID=1000
+      - PGID=1000
+      # Base URL of your changedetection.io install (Added to the notification alert)
+      - BASE_URL=http://changedetection.home
+      # Alternative WebDriver/selenium URL, do not use "'s or 's!
+      #- WEBDRIVER_URL=http://playwright-chrome:4444/wd/hub
+      # Alternative Playwright URL, do not use "'s or 's!
+      - PLAYWRIGHT_DRIVER_URL=ws://playwright-chrome:3000/?stealth=1&--disable-web-security=true
+    restart: unless-stopped
+    depends_on:
+        playwright-chrome:
+            condition: service_started
+    dns:
+      - 172.16.10.1
+    mac_address: de:ad:be:ef:10:07
+    networks:
+      untrusted_vlan:
+        ipv4_address: 172.16.10.7
+      changedetection:
+
+# Disable selenium in favor of Playwright Chrome as the visualselector only works with Playwright
+#
+#  browser-chrome:
+#    hostname: browser-chrome
+#    image: selenium/standalone-chrome:111.0
+#    container_name: changedetection-chrome
+#    environment:
+#      - VNC_NO_PASSWORD=1
+#      - SCREEN_WIDTH=1920
+#      - SCREEN_HEIGHT=1080
+#      - SCREEN_DEPTH=24
+#      - JAVA_OPTS=-Dwebdriver.chrome.whitelistedIps=172.16.10.7
+#    volumes:
+#      # Workaround to avoid the browser crashing inside a docker container
+#      # See https://github.com/SeleniumHQ/docker-selenium#quick-start
+#      - /dev/shm:/dev/shm
+#    restart: unless-stopped
+#    dns:
+#      - 172.16.10.1
+#    mac_address: de:ad:be:ef:10:08
+#    networks:
+#      untrusted_vlan:
+#        ipv4_address: 172.16.10.8
+
+  playwright-chrome:
+    hostname: playwright-chrome
+    image: browserless/chrome
+    container_name: changedetection-playwright-chrome
+    restart: unless-stopped
+    environment:
+      - SCREEN_WIDTH=1920
+      - SCREEN_HEIGHT=1024
+      - SCREEN_DEPTH=16
+      - ENABLE_DEBUGGER=false
+      - PREBOOT_CHROME=true
+      - CONNECTION_TIMEOUT=300000
+      - MAX_CONCURRENT_SESSIONS=10
+      - CHROME_REFRESH_TIME=600000
+      - DEFAULT_BLOCK_ADS=true
+      - DEFAULT_STEALTH=true
+      # Ignore HTTPS errors, like for self-signed certs
+      - DEFAULT_IGNORE_HTTPS_ERRORS=true
+    volumes:
+      - /dev/shm:/dev/shm
+    networks:
+      changedetection:
+
+networks:
+  untrusted_vlan:
+    name: untrusted_vlan
+  changedetection:
+    name: changedetection
