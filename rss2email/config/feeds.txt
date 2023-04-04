@@ -140,6 +140,10 @@ https://www.da.vidbuchanan.co.uk/blog/rss.xml
 http://www.miamammausalinux.org/feed/
 - template: /templates/default.tmpl
 
+# Daniel Stenberg personal blog (curl)
+https://daniel.haxx.se/blog/feed/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
