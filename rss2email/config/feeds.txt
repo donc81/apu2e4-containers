@@ -324,6 +324,10 @@ https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tags.atom
 https://gitlab.suse.de/gsonnu/userscripts.atom
 - template: /templates/default.tmpl
 
+# imtools for the SUSE Security Team
+https://gitlab.suse.de/security/imtools.atom
+- template: /templates/default.tmpl
+
 # Secbox - https://github.com/StayPirate/secbox
 https://github.com/StayPirate/secbox/tags.atom
 - template: /templates/default.tmpl
