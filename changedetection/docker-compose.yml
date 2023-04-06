@@ -71,6 +71,10 @@ services:
       - DEFAULT_STEALTH=true
       # Ignore HTTPS errors, like for self-signed certs
       - DEFAULT_IGNORE_HTTPS_ERRORS=true
+      # Limit the concurrent session to 1 as the apu2e4 cannot run more in parallel
+      # Unfortunatelly the two following options don't limit parallel sessions :(
+      - MAX_CONCURRENT_SESSIONS=1
+      - MAX_QUEUE_LENGTH=0
     volumes:
       - /dev/shm:/dev/shm
     networks:
