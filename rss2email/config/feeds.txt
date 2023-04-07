@@ -421,3 +421,8 @@ https://feeds.transistor.fm/thundercast
 # Fossified
 https://pod.fossified.com/podcast.rss
 - template: /templates/default.tmpl
+
+# Open Source Security Podcast
+# https://opensourcesecurity.io/
+https://opensourcesecuritypodcast.libsyn.com/rss
+- template: /templates/default.tmpl
