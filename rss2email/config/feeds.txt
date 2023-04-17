@@ -148,6 +148,10 @@ https://daniel.haxx.se/blog/feed/
 https://blog.sekoia.io/feed/
 - template: /templates/default.tmpl
 
+# Kaspersky Securelist Blog
+https://securelist.com/feed/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
