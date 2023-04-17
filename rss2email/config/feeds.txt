@@ -152,6 +152,10 @@ https://blog.sekoia.io/feed/
 https://securelist.com/feed/
 - template: /templates/default.tmpl
 
+# Uptycs Blog
+https://www.uptycs.com/blog/rss.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
