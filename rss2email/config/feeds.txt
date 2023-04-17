@@ -156,6 +156,10 @@ https://securelist.com/feed/
 https://www.uptycs.com/blog/rss.xml
 - template: /templates/default.tmpl
 
+# The Citizen Lab
+https://citizenlab.ca/category/research/feed/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
