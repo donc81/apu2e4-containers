@@ -8,7 +8,8 @@ services:
     restart: unless-stopped
     image: tuxmealux/rss2email:latest
     volumes:
-    - ./config:/root/.rss2email
+      - ./config:/root/.rss2email
+      - /etc/localtime:/etc/localtime:ro 
     dns:
       - 172.16.10.1
     mac_address: de:ad:be:ef:10:03
