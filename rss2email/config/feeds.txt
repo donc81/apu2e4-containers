@@ -168,6 +168,11 @@ https://faultlore.com/blah/rss.xml
 https://www.mandiant.com/resources/blog/rss.xml
 - template: /templates/default.tmpl
 
+# Matthew Garrett personal Blog
+https://mjg59.dreamwidth.org/data/atom
+- template: /templates/default.tmpl
+- delay: 5
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
