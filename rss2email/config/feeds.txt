@@ -164,6 +164,10 @@ https://citizenlab.ca/category/research/feed/
 https://faultlore.com/blah/rss.xml
 - template: /templates/default.tmpl
 
+# Mandiant Blog
+https://www.mandiant.com/resources/blog/rss.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
