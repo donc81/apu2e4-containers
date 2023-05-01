@@ -63,7 +63,7 @@ services:
       - SCREEN_HEIGHT=1024
       - SCREEN_DEPTH=16
       - ENABLE_DEBUGGER=false
-      - PREBOOT_CHROME=flase
+      - PREBOOT_CHROME=false
       - CONNECTION_TIMEOUT=300000
       - CHROME_REFRESH_TIME=600000
       - DEFAULT_BLOCK_ADS=true
